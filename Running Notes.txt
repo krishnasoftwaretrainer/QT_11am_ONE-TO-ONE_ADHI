@@ -1,0 +1,38 @@
+Node-JS: TypeScript/JavaScript:
+
+Core[Basics] + Advanced
+
+Basic Concepts+OOPS Concepts:
+------------------------
+Web App Development
+Automation Testing[Automation Script]
+
+Write Automation Script:if() const username:string;
+Logical Thinking. 
+
+5th 6th 
+
+.js    .ts 
+Dynamically Typed   Statically Typed 
+No Data Types 		Using DataTypes 
+					number
+					string
+					boolean
+a=10	b='10'	  a:number=10	b:string='10'
+a='Krishna'		  a='Krishna'
+a+b:1010			a+b:1010
+
+Not Compilation		Required Compilation
+
+Source Code->SourceCode.>Compilation:Error and Executable
+Executable Files[.js]:Run/Use 
+
+Bug in app   
+
+TypeScript is superset of JS 
+
+Node JS:https://nodejs.org/en/download
+TypeScript Compiler
+VS-Code Editor
+
+CLI:Command Line Interface
