@@ -36,3 +36,65 @@ TypeScript Compiler
 VS-Code Editor
 
 CLI:Command Line Interface
+
+Variables , DataTypes and Scope
+----------------------
+Container, using to store the different types of values.
+
+Variable is an memory location/address.
+Variable name are user-define.
+Rules:
+Don't start with Digits[Use from second character onwards] or SS[Except $ _]
+Always starts with alphabets
+Don't use predefine.
+Don't give the duplicates. 
+Without Initialization dont use it.
+
+
+Valid:n3um1  n12345  _num1 $num1  
+In-Valid:5num1  #num1  number let string 
+
+Syntax:
+Variable Declaration:
+KeyWord variablename:datatype;
+var num1:number;
+let num1:number;
+const num1:number;
+
+Variable Declaration+Initialization:
+KeyWord variablename:datatype=value;
+var num1:number=20;
+
+Witch type of data we are stored into variable, that type of data cal it as datatype.
+
+1.Primitive[Basic]
+Number:Numeric:Plain and Point 
+345 	-778
+890.456   -5677.34567
+datatype: number
+
+KeyWord variablename=value; [JS]
+KeyWord variablename=value;[TS]
+let num1:number=1001;
+let num1:number=-33356;
+let num1:number=99.99;
+let num1:number=-22.578;
+let num1:number='Krishna'; //Error[Type Safety]
+
+String:Character and Characters
+let name:string="Krishna";
+let gender:string='M';
+let course:string=`Testing`;
+
+Boolean:true[1]/false[0] Binary:0 1
+let result:boolean=true;
+let applicable:boolean=false;
+
+
+2.Non-Primitive[Advanced]
+Arrays
+Strings 
+Functions 
+Class
+Object
+OOPS
