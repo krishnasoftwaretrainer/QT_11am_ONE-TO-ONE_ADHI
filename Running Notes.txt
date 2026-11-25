@@ -90,6 +90,11 @@ Boolean:true[1]/false[0] Binary:0 1
 let result:boolean=true;
 let applicable:boolean=false;
 
+Type 'string' is not assignable to type 'boolean'.
+
+
+tsc filename.ts -->Compilation
+node filename.js -->Execution 
 
 2.Non-Primitive[Advanced]
 Arrays
@@ -98,3 +103,59 @@ Functions
 Class
 Object
 OOPS
+
+Scope: var let const
+-----
+1.Global Scope:Outside of Function
+2.Function Scope:Inside Function and Outside Block 
+3.Block Scope:Inside Block
+
+Function:{ Specfic Part }
+-------- 
+Syntax:
+---
+function functionname
+{
+Body;
+}
+
+Block:Condition:if()
+
+Re-Declaration
+var a=10;
+var a=20;
+a=30;
+-----
+let b=10;
+let b=20;
+
+Re-Initialization
+let b=10;
+b=20;
+b=30;
+
+var:
+Re-Declaration:Possible 
+Re-Initialization:Possible
+
+let:
+Re-Declaration:Not Possible 
+Re-Initialization:Possible
+
+const:
+Re-Declaration:Not Possible 
+Re-Initialization:Not Possible
+
+var is function scope 
+let and const both are block scope
+block scope:Not accept the Re-Declaration
+Cannot redeclare block-scoped variable
+Cannot redeclare block-scoped variable
+Cannot assign to 'c' because it is a constant.
+
+Error: Cannot redeclare block-scoped variable 'c'.
+
+var is function scope
+
+let is block scope 
+const is block scope 
