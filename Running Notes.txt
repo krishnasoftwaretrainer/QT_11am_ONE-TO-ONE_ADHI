@@ -159,3 +159,45 @@ var is function scope
 
 let is block scope 
 const is block scope 
+
+Comments in Java:
+---------------
+Excutable:Compile and Run 
+Non-Excutable
+
+Re-Usability:Write Once Use or Run Many Times.
+
+
+1.Single Line: //
+2.Multi Line: /*   */
+
+Operators:
+--------
+Operator is an Symbol: + = & 
+Operators are using to perform Operations on Operands.
+
+2+3 
+
+1.Arthametic:+ - * / %
+Input:Number
+Output:Number
+
+2.Relational/Comparison:< <= > >= == !=
+Input:Number  5>3:True:Yes  3>5:False:No 
+Output:Boolean
+
+3.Logical:&& || ! 
+Input:Boolean
+Output:Boolean
+
+4.Assignment: = += -= *= /=
+Input:Number
+Output:Number
+
+5.Unary[Increment/Decrement]:++ --
+Input:Number
+Output:Number
+
+6.Ternary: ? :
+Input:Number
+Output:Number
