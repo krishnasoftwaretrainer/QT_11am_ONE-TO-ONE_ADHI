@@ -266,5 +266,89 @@ a--:Post-Decrement:Print 6 a=5
 Input:Number
 Output:Number
 
+Compilation then Execution
+Sequential Flow:Statements are executing based on given or written order in Program.
+
+Control Flow:Statements are executing based on given condition not an order oy written.
+
+C C++ Java Python .net JS TC Ruby etc...
+
 Control Flow Statements in JS/TS:
 ---------------------
+1.Conditional/Branching Statements:
+A.if Condition
+a.simple-if()
+b.if-else()
+c.else-if() or ladder-if()
+d.nested if()
+B.switch Condition
+
+2.Looping/Iterative Statements:To execute statements or body more than one time or multiple times or infinite times.
+A.for()
+B.while()
+C.do-while()
+D.Nested Loops
+
+3.Jumping Statements:Skip the current iteration or permanent Skip.
+A.break
+B.continue
+C.return
+
+Definition
+Syntax
+Flowchart
+Explanation
+Example Program
+
+TBS:True Block Statements
+FBS:False Block Statements
+
+1.Simple-if():
+-------------
+TBS:True:
+False:Null/Blank/Empty 
+Syntax:
+--------
+if(Condition) True/False 
+{
+TBS;
+}
+Null
+
+2.if-else():
+-----------
+if:TBS 
+else:FBS 
+
+Syntax:
+--------
+if(Condition) True/False 
+{
+Body; TBS;
+}
+else
+{
+FBS;
+}
+
+3.else-if():
+----------
+Syntax:
+------
+if(Condition-1)T/F 
+{
+Body;TBS;
+}
+else if(Condition-2)T/F  
+{
+Body;TBS;
+}//Exit 
+else if(Condition-3)F 
+{
+Body;TBS;
+}
+else 
+{
+Body; FBS;
+}
+
